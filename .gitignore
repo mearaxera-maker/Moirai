@@ -1,0 +1,28 @@
+# General and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.log
+*.tmp
+*.out
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Security & credentials
+*.pem
+*.key
+*.cer
+*.pub
+credentials.txt
+config.yml
+secrets.json
+
+# Simulation and hardware design files
+*.vcd
+*.ghw
+*.vpk
